@@ -27,8 +27,6 @@ Before diving into the construction process, make sure you have all the necessar
 A Bi-Quad antenna consists of two copper wire square elements arranged in a cross configuration. This design allows for increased signal strength and improved directional coverage compared to standard antennas. All sides of each element are a quarter-wavelength long, making them resonate at the desired frequency of WI-FI, which is 2.45 GHz.
 
 ## Step 3: Calculate Element Lengths
-
-<p>
 To achieve optimal performance, we'll need to find the length of the antenna element sides to find the quarter-wavelength desired frequency. Since the frequency is 2.45 GHz, we can use the following formula to calculate the wavelength:
 
 ```math
@@ -38,7 +36,6 @@ To achieve optimal performance, we'll need to find the length of the antenna ele
 Where c is the speed of light (since this is how fast radio waves travel), or approximate $3.0 \times 10^8 {m \over s}$ and $f$ is the frequency in Hertz (Hz), or $2.45 \times 10^9$ Hz for WI-FI
 
 Calculating will yield a wavelength of about $0.1224$ m, or about $12.25$ cm for a wavelength, which needs to be divided by 4 to achieve an optimal quarter-wavelength. This means that each element's side needs to be about $0.0306$ m or $3.05$ cm long. Cut two pieces from the 1m length of copper wire with each segment being about 30 cm long.
-</p>
 
 ## Step 4: Construct the Antenna Elements
 Bend each of the four wire segments into the shape as depicted in the image below, ensuring that the corners are at right angles:
