@@ -1,5 +1,3 @@
-<script src="https://rawcdn.githack.com/oscarmorrison/md-page/master/md-page.js"></script><noscript>
-
 [Back to Main Page](https://neatpatel.github.io/)
 
 # DIY Bi-Quad Antenna: Boost Your WiFi Signal in 6 Easy Steps
