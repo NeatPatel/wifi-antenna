@@ -31,9 +31,9 @@ A Bi-Quad antenna consists of two copper wire square elements arranged in a cros
 <p>
 To achieve optimal performance, we'll need to find the length of the antenna element sides to find the quarter-wavelength desired frequency. Since the frequency is 2.45 GHz, we can use the following formula to calculate the wavelength:
 
-$$ 
+```math
 \lambda = {c \over f}
-$$
+```
 
 Where c is the speed of light (since this is how fast radio waves travel), or approximate $3.0 \times 10^8 {m \over s}$ and $f$ is the frequency in Hertz (Hz), or $2.45 \times 10^9$ Hz for WI-FI
 
