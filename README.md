@@ -1,3 +1,7 @@
+layout: page
+title: "Bi-Quad Antenna Blog"
+permalink: /wifi-antenna
+
 [Back to Main Page](https://neatpatel.github.io/)
 
 # DIY Bi-Quad Antenna: Boost Your WiFi Signal in 6 Easy Steps
