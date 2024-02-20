@@ -1,5 +1,3 @@
-# DIY Bi-Quad Antenna: Boost Your WiFi Signal in 6 Easy Steps
-
 ![](https://github.com/NeatPatel/wifi-antenna/blob/main/images/bi-quad_antenna.jpg?raw=true)
 
 ## Introduction:
