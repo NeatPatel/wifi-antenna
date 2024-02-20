@@ -3,11 +3,14 @@
 
 Custom antenna built to replace default WI-FI router antenna
 
-<details>
-  <summary>Dropdown</summary>
-  <br>
+<code class="lang-java">
+  public void myFunc(input) {
+    //stuff here
+  }
+</code>
 
-  ```java 
-  code here
-  ```
-</details>
+<details>
+  <summary>Dropdown</summary></p>
+<pre><code class="lang-java">  <span class="hljs-selector-tag">code</span> here
+</code></pre>
+<p></details>
