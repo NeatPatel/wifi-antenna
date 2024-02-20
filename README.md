@@ -2,13 +2,16 @@
 
 # DIY Bi-Quad Antenna: Boost Your WiFi Signal in 6 Easy Steps
 
-![](https://github.com/NeatPatel/eventMessager/blob/main/images/bi-quad_antenna.jpg?raw=true)
+![](https://github.com/NeatPatel/wifi-antenna/blob/main/images/bi-quad_antenna.jpg?raw=true)
 
 ## Introduction:
 Are you tired of weak WiFi signals limiting your internet access? One effective solution is to upgrade your router's antenna. In this blog post, I'll guide you through the process of designing and building your own Quad antenna. With just a few materials and some basic tools, you can significantly enhance your WiFi coverage and enjoy faster internet speeds.
 
 ### What are antennas and how do they work?
-Basics of antennas here
+Antennas are devices that can be used to send or receive signals in the form of electromagnetic waves. Generally a WI-FI router antenna will not require any power, and will just intercept signals by catching EM radiation (Electro-Magnetic waves) and giving the input to the router to process. 
+
+The interception of signals is possible because of something known as "induced current", where when a straight wire has current running through it, electromagnetic waves will begin to generate around it, called an induced B field. 
+  - This process works the other way around, and allows for electromagnetic fields existing around antennas to generate currents within the antenna. This process results in a current that can be sent as a signal to the router.
 
 ## Step 1: Gather Your Materials
 Before diving into the construction process, make sure you have all the necessary materials on hand. You'll need:
@@ -20,14 +23,24 @@ Before diving into the construction process, make sure you have all the necessar
 - Wire cutter/stripper
 - Measuring tape
 
-## Step 2: Understand Bi-Quad Antenna Basics
+> Note: it is very important to have an SMA-Male connector, because this is what is used to connect to the router itself!
+
+## Step 2: Understanding the Bi-Quad Antenna Basics
 A Quad antenna consists of four copper wire square elements arranged in a cross configuration. This design allows for increased signal strength and improved directional coverage compared to standard antennas. Each element is a quarter-wavelength long, making it resonate at the desired frequency of WI-FI, which is 2.45 GHz.
 
 ## Step 3: Calculate Element Lengths
-To achieve optimal performance, you'll need to calculate the lengths of the antenna elements based on the frequency of your WiFi signal. You can use online calculators or formulas to determine these lengths accurately. Remember to account for any velocity factor in your coaxial cable.
+To achieve optimal performance, you'll need to find the length of the antenna elements to find the quarter-wavelength desired frequency. Since the frequency is 2.45 GHz, we can use the following formula to calculate the wavelength:
+
+$$ 
+\lambda = {c \over f}
+$$
+
+Where c is the speed of light, or approximate $3.0 \times 10^8 {m \over s}$ and $f$ is the frequency in Hertz (Hz), or $2.45 \times 10^9$ Hz for WI-FI
+
+Calculating will yield a wavelength of about $0.1224$ m, or about $12.25$ cm for a wavelength, which needs to be divided by 4 to achieve an optimal quarter-wavelength. This means that each element needs to be about $0.0306$ m or $3.05$ cm long. Cut four pieces from the 1m length of copper wire with each segment being about 3.05 cm long.
 
 ## Step 4: Construct the Antenna Elements
-Using the calculated lengths, cut the copper wire into four segments. Bend each segment into a square shape, ensuring that the corners are at right angles. Solder the ends together to form the quad elements. Then, attach each element to the PVC pipe frame using adhesive or clamps.
+Bend each of the four wire segments into a square shape, ensuring that the corners are at right angles. Solder the ends together to form the quad elements. Then, attach each element to the PVC pipe frame using adhesive or clamps.
 
 ## Step 5: Build the Feed Point
 Next, you'll need to create the feed point where the coaxial cable connects to the antenna. Drill a hole in the PVC pipe near the center, ensuring it's large enough to accommodate the cable connector. Strip the insulation from the coaxial cable and solder the inner conductor to one of the quad elements. Connect the outer conductor to the remaining elements.
