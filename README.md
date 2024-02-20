@@ -51,7 +51,7 @@ The result should look this:
 Now, strip the insulation from the coaxial cable and solder the inner conductor to the bi-quad combined cross. The result should look like the antenna in the image at the beginning.
 
 ## Step 6: Test and Fine-Tune
-Once the antenna is assembled, it's time to test its performance. Mount the antenna in a clear, elevated location and connect it to your WiFi router using the coaxial cable. Use a WiFi analyzer app or software to measure signal strength and coverage. If necessary, adjust the antenna's position or element lengths to optimize performance.
+Once the antenna is assembled, it's time to test its performance. Mount the antenna in a clear, elevated location and connect it to your WI-FI router using the coaxial cable. Use a WI-FI analyzer app or software to measure signal strength and coverage, such as [this nirsoft service](https://www.nirsoft.net/utils/wifi_information_view.html). If necessary, adjust the antenna's position or element lengths to optimize performance.
 
 ## Conclusion:
-By following these simple steps, you can create your own Bi-Quad antenna and enhance your WiFi signal strength and coverage. With a little effort and creativity, you can enjoy faster internet speeds and a more reliable connection throughout your home or office. Say goodbye to WiFi dead zones and hello to seamless browsing, streaming, and online gaming!
+Now you have created your own Bi-Quad antenna and enhanced your WiFi signal strength and coverage! With your effort and creativity, you can now enjoy faster internet speeds and a more reliable connection throughout your home or office. Say goodbye to WiFi dead zones and hello to seamless browsing, streaming, and online gaming!
