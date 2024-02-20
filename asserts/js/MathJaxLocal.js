@@ -55,4 +55,4 @@ MathJax.Hub.Config({
   }
 });
 
-MathJax.Ajax.loadComplete("https://neatpatel.github.io/wifi-antenna/assets/js/MathJaxLocal.js");
+MathJax.Ajax.loadComplete("https://neatpatel.github.io/wifi-antenna/");
